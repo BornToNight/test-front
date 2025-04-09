@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'web-socket',
       component: () => import('../views/WebSocketView.vue'),
     },
+    {
+      path: '/sse',
+      name: 'sse',
+      component: () => import('../views/SseView.vue'),
+    },
   ],
 })
 
